@@ -5,7 +5,8 @@ Determinant of a Matrix
 Overview
 The determinant is a scalar value that can be computed from the elements of a square matrix.
 The determinant is denoted as 
-det(A) or ∣A∣.
+|A| = A[0,0]*A[1,1] - A[0,1]*A[1,0]
+
 Determinants are used to:
 Determine whether a matrix is invertible.
 Solve systems of linear equations using Cramer's Rule.
