@@ -1,6 +1,8 @@
 #lu_decomposition_solver
 
 """
+# Astro Pema Software (c) 2024-25
+# Code Oba Ozai - Astro Pema Software 
 
 Advantages of LU Decomposition in Real-World Applications
 
