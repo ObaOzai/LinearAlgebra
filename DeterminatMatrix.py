@@ -51,14 +51,16 @@ def calculate_determinant(matrix):
 
 if __name__ == "__main__":
     # Define a 2x2 matrix
-    A_2x2 = np.array([[4, 3], [6, 3]])
+    #A_2x2 = np.array([[4, 3], [6, 3]])
+    A_2x2 = np.random.randint(0, 200, size=(2, 2))
     print("2x2 Matrix A:")
     print(A_2x2)
     det_2x2 = calculate_determinant(A_2x2)
     print(f"Determinant of 2x2 matrix: {det_2x2:.4f}")
     
     # Define a 3x3 matrix
-    A_3x3 = np.array([[6, 1, 1], [4, -2, 5], [2, 8, 7]])
+    #A_3x3 = np.array([[6, 1, 1], [4, -2, 5], [2, 8, 7]])
+    A_3x3 = np.random.randint(0, 200, size=(3, 3))
     print("\n3x3 Matrix A:")
     print(A_3x3)
     det_3x3 = calculate_determinant(A_3x3)
